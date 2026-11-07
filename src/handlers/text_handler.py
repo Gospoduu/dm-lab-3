@@ -14,7 +14,6 @@ def open_file(file: str):
         os.close(fd)
 
 
-
 class TextHandler:
     def __init__(self, chunk_size = 1024 * 1024):
         self.chunk_size = chunk_size
